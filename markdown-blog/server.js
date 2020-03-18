@@ -25,7 +25,7 @@ app.get('/', (req, res)=> {
         },
     ]
 
-    res.render('index', {articles: articles})
+    res.render('articles/index', {articles: articles})
 })
 
 app.listen(5000)
